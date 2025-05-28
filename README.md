@@ -1,2 +1,2 @@
 # to_do_list
-you can add yur
+you can add, update, remove your task
