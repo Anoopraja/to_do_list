@@ -1,15 +1,15 @@
+#to do list can help you to manage your tasks
+#you can add, remove, list, update tasks
 def to_do_list():
     tasks = []
-
+#use while loop to keep the program running until user decides to exit
     print("Welcome to py_to_do_list")
     while True:
         print("\n1. Add task")
         print("2. Remove task")
         print("3. List tasks")
         print("4. Exit")
-
         choice = input("Please choose any option: ")
-
         if choice == "1":
             task = input("Enter your task to add: ")
             tasks.append(task)
@@ -30,6 +30,5 @@ def to_do_list():
             break
         else:
             print("Invalid choice")
-
 if __name__ == "__main__":
     to_do_list()
